@@ -1,33 +1,172 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta id="viewport" name="viewport" content="width=540,user-scalable=no,target-densitydpi=high-dpi">
-<script src="js/require.js"></script>
-<title>一个都不能死</title>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>浪费时光小游戏</title>
+    <link rel="stylesheet" href="./css/fontello.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <style type="text/css">@font-face { font-family: 'rbicon'; src: url(chrome-extension://dipiagiiohfljcicegpgffpbnjmgjcnf/fonts/rbicon.woff2) format("woff2"); font-weight: normal; font-style: normal; } ::-webkit-input-placeholder { /* WebKit, Blink, Edge */ color: #495057; } :-moz-placeholder { /* Mozilla Firefox 4 to 18 */ color: #495057; } ::-moz-placeholder { /* Mozilla Firefox 19+ */ color: #495057; } :-ms-input-placeholder { /* Internet Explorer 10-11 */ color: #495057; }</style>
+    </head>
+  <body class="body-home body-website">
+    <div class="header-bar">
+      <div class="container">
+        <div class="bar-right ">
+          <span id="tips" style="font-size:15px;"></span>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-1 sidebar">
+            <div class="content-sidebar" style="">
+              <dl id="goto">
+                <dt style="top: 7px;">
+                  <span class="show-list"></span>
+                </dt>
+                <dd class="current">
+                  <a href="#hot" class="auto-scroll" data-offset="-20" data-speed="500">休闲游戏</a></dd>
+              </dl>
+            </div>
+          </div>
+		  <!--
+          <div style="padding:0px 10px;" id="randomcomm">
+            智能橱窗
+              <script type="text/javascript" charset="UTF-8" src="https://apimall.dataoke.com/api/component/code-info/v1?comId=364&type=2&v=1576748698" exte-id="364" data-size="100%_50vw" data-color="#FF3B32" data-bodycolor="#fff" data-opacity="100" data-show="1"></script>
+          </div>
+		  -->
+          <div class="col-md-11">
+            <div class="part current" id="hot" data-title="休闲游戏">
+              <h2 class="has_link ">
+                <strong>休闲游戏（初次打开略慢）</strong></h2>
+              <div class="items ">
+                <div class="row">
+				  <div class="col-xs-6 col-sm-4 col-md-2">
+                    <div class="item">
+                      <a onclick="javascript:jumpa('https://nodie.xiaogan.ga/nodie/index.html')" target="_blank">
+                        <img src="./imgs/nodie.png" alt="">
+                        <h3>一个都不能死</h3>
+                        <p>同时操作5个小家伙跑酷，来试试？</p>
+                      </a>
+                    </div>
+                  </div>
+				  <div class="col-xs-6 col-sm-4 col-md-2">
+                    <div class="item">
+                      <a onclick="javascript:jumpa('https://nodie.xiaogan.ga/zxm/index.html')" target="_blank">
+                        <img src="./imgs/qxm.png" alt="">
+                        <h3>圈小猫</h3>
+                        <p>只有智商250以上的才能圈住吧</p>
+                      </a>
+                    </div>
+                  </div>
+				  <div class="col-xs-6 col-sm-4 col-md-2">
+                    <div class="item">
+                      <a onclick="javascript:jumpa('https://nodie.xiaogan.ga/jfcz/index.html')" target="_blank">
+                        <img src="" alt="">
+                        <h3>见缝插针</h3>
+                        <p>我一口气只能玩三关</p>
+                      </a>
+                    </div>
+                  </div>
+				  <div class="col-xs-6 col-sm-4 col-md-2">
+                    <div class="item">
+                      <a onclick="javascript:jumpa('https://nodie.xiaogan.ga/mf/index.html')" target="_blank">
+                        <img src="" alt="">
+                        <h3>3D魔方</h3>
+                        <p>非常逼真，去哔哩哔哩搜六面教程吧</p>
+                      </a>
+                    </div>
+                  </div>
+				  <!--<div class="col-xs-6 col-sm-4 col-md-2">
+                    <div class="item">
+                      <a onclick="javascript:jumpa('http://ggg.gaofushuaiba.cn/minigame/endlesslake/')" target="_blank">
+                        <img src="" alt="">
+                        <h3>无尽之湖</h3>
+                        <p>我的脑子玩不转。。</p>
+                      </a>
+                    </div>
+                  </div>-->
+				  <div class="col-xs-6 col-sm-4 col-md-2">
+                    <div class="item">
+                      <a onclick="javascript:jumpa('https://nodie.xiaogan.ga/jiguang/index.html')" target="_blank">
+                        <img src="" alt="">
+                        <h3>激光防线</h3>
+                        <p>画条线干掉它们！很新颖的玩法。</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+	 </div>
+    <script src="./js/hao.js" charset="utf-8"></script>
+    <div id="rememberry__extension__root" style="all: unset;"></div>
+  </body>
 
-<style type="text/css">
-body{
-	margin:0px;
-	padding:0px;
-	overflow: hidden;
-}
-</style>
-
-<script type="text/javascript" src="js/main.js"></script>
-
-</head>
-<body>
-
-<div style="text-align:center;">
-	<canvas id="linkScreen" width="1366" height="621" style="width: 1366px; height: 621px;">
-		很遗憾，您的浏览器不支持HTML5，请使用支持HTML5的浏览器。
-	</canvas>
-</div>
-
-<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
-<p>适用浏览器：360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗. 不支持IE8及以下浏览器。</p>
-</div>
-</body>
 </html>
+<div style="display:none;"><script type="text/javascript" src="https://s4.cnzz.com/z_stat.php?id=1278609315&web_id=1278609315"></script></div>
+<script>
+//声明_czc对象:
+var _czc = _czc || [];
+//绑定siteid，请用您的siteid替换下方"XXXXXXXX"部分
+_czc.push(["_setAccount", "1278609315"]);
+</script>
+<script>
+function checkit()
+{
+    try
+    {
+        keyword = document.getElementById("keyword");
+        keyword = keyword.value;
+        reg = "[a-zA-z]+://[^\\s]*";
+        urls = keyword.match(reg);
+        if(urls != null && urls.length > 0)
+        {
+            keyword = urls[0];
+        }
+        if(keyword.indexOf("http://") == 0 || keyword.indexOf("https://") == 0)
+        {
+            jumpa(keyword);
+            return false;
+        }
+        return true;
+    }catch(e) { return true; }
+}
 
+function jumpa(keyword)
+{
+	try
+	{
+		_czc.push(["_trackEvent", "出站", "访问", keyword]);
+	}
+	catch(e){}
+	
+	//跳转
+	try{ window.location.href = keyword; }
+	catch(e)
+	{
+		try{ window.open(keyword); }
+		catch(e1)
+		{
+			try{ window.navigate(keyword); }
+			catch(e2)
+			{
+				try{ self.location = keyword;  }
+				catch(e3)
+				{
+					top.location = keyword;
+				}
+			}
+		}
+	}
+}
+
+tips = ['浪费时光小游戏'];
+tipspan = document.getElementById("tips");
+tipspan.innerHTML = tips[Math.floor(Math.random()*tips.length)];
+</script>
