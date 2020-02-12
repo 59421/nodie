@@ -3,7 +3,7 @@
 }
 
 function goHome() {
-	window.location.href = "www.58player.com/wxgame/";
+	window.location.href = "https://nodie.xiaogan.ga";
 }
 
 function play68_submitScore(score) {
@@ -12,8 +12,8 @@ function play68_submitScore(score) {
 }
 
 function updateShare(bestScore) {
-	imgUrl = 'www.58player.com/wxgame/jg/ds/icon.png';
-	lineLink = 'www.58player.com/wxgame/jg/';
+	imgUrl = '';
+	lineLink = 'https://nodie.xiaogan.ga/jiguang/index.html';
 	descContent = "来比比看谁的手指更厉害！";
 	updateShareScore(bestScore);
 	appid = '';
@@ -21,9 +21,9 @@ function updateShare(bestScore) {
 
 function updateShareScore(bestScore) {
 	if(bestScore > 0) {
-		shareTitle = "微创客游戏《激光防线》我得了" + bestScore + "分，你的手指有我的快吗？";
+		shareTitle = "我在游戏《激光防线》我得了" + bestScore + "分，你的手指有我的快吗？";
 	}
 	else{
-		shareTitle = "微创客游戏《激光防线》让你用手指画出激光线！";
+		shareTitle = "我在游戏《激光防线》让你用手指画出激光线！";
 	}
 }
